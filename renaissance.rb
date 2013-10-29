@@ -19,6 +19,10 @@ bot = Cinch::Bot.new do
     m.reply "hello, #{m.user.nick}"
   end
   
+  on :message, "!github" do |m|
+    m.reply "https://github.com/kennygao/renaissance"
+  end
+  
   on :message, /^!dota (.+)/ do |m, account_id|
     params_hash = {
       account_id: account_id,
