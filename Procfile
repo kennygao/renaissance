@@ -1,1 +1,1 @@
-web: ruby renaissance.rb
+cinch: ruby renaissance.rb
